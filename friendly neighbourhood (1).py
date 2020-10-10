@@ -7,10 +7,10 @@ copyneighbourArr.sort(reverse=True)
 
 length = len(neighbourArr)
 
-non = 0
+sos = 0
 
 for n in copyneighbourArr :
-    non += n
+    sos += n
     x = neighbourArr.index(n)
     p = x-1
     q = x+1
@@ -22,7 +22,7 @@ for n in copyneighbourArr :
             copyneighbourArr.remove(neighbourArr[q])
 
 
-print(non)
+print(sos)
         
     
         
