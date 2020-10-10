@@ -1,5 +1,5 @@
 
-neighbourArr = [10,3,2,5,7,1]
+neighbourArr = [10,7,8,5,7,1]
 
 copyneighbourArr = list(neighbourArr)
 
